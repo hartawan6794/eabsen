@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#fff">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/text_color_login"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/text_color_login" />
+    <item
+        android:id="@+id/izin"
+        android:icon="@drawable/ic_izin"
+        android:title="Izin"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/text_color_login"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/text_color_login" />
+    <item
+        android:id="@+id/hadir"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        android:title="Kamera"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/text_color_login"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/text_color_login" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/text_color_login"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/text_color_login" />
+
+
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">absensi</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="sub_title">Terobosan Mudah untuk Mencatat Kehadiran: Temukan Daya Tarik Sistem Absensi Elektronik</string>
+    <string name="keterangan">Lebih cepat dan mempermudah untuk melacak pegawai di tempat anda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jokes">Hati hati ya kalau renang di kolam renang, karena kolam renang mengandung copyright :v"</string>
+</resources>
