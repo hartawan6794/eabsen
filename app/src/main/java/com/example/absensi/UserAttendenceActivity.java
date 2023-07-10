@@ -128,7 +128,6 @@ public class UserAttendenceActivity extends AppCompatActivity implements OnMapRe
 
         gpsTracker = new GPSTracker(this);
 
-
     }
 
     public static String getDeviceId(Context context) {
@@ -244,6 +243,7 @@ public class UserAttendenceActivity extends AppCompatActivity implements OnMapRe
     }
 
 
+    //mendapatkan permission request location
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
 
     public boolean checkLocationPermission() {

@@ -20,6 +20,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
+
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,14 +31,33 @@
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
-            <androidx.appcompat.widget.AppCompatTextView
+            <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_bold"
-                android:paddingTop="10dp"
-                android:text="Admin Absensi"
-                android:textColor="@color/text_color_login"
-                android:textSize="18sp" />
+                android:orientation="horizontal">
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:paddingTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Admin Absensi"
+                    android:textColor="@color/text_color_login"
+                    android:textSize="18sp" />
+
+                <TextClock
+                    android:id="@+id/tv_jam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:paddingTop="10dp"
+                    android:text="13:00"
+                    android:textColor="@color/text_color_login"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -321,6 +341,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_medium"
             android:paddingTop="10dp"
+            android:text="Kenapa tempe bikinnya lama?? karena bikinnya dari ke-delay....."
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintLeft_toLeftOf="parent"

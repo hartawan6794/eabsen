@@ -7,10 +7,12 @@ import androidx.appcompat.widget.AppCompatTextView;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
+import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextClock;
 
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
@@ -18,8 +20,10 @@ import com.androidnetworking.interfaces.JSONObjectRequestListener;
 
 import org.json.JSONObject;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.Locale;
 
 /**
@@ -33,6 +37,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
     //    init komponent
     private AppCompatTextView tv_date_today, tv_count_suhu, tv_condition_suhu, tv_location, tv_jokse;
+    private TextClock tv_jam;
     private CardView menu_hadir, menu_izin, menu_sakit;
 
     public HomeFragment() {
@@ -49,6 +54,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         tv_location = v.findViewById(R.id.tv_location);
         tv_condition_suhu = v.findViewById(R.id.tv_condition_suhu);
         tv_jokse = v.findViewById(R.id.tv_jokes);
+        tv_jam = v.findViewById(R.id.tv_jam);
         menu_hadir = v.findViewById(R.id.menu_hadir);
         menu_izin = v.findViewById(R.id.menu_izin);
         menu_sakit = v.findViewById(R.id.menu_sakit);
